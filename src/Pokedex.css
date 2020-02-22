@@ -1,6 +1,16 @@
+.Pokedex {
+  margin-bottom: 5em;
+}
+
 .Pokedex-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Pokedex-header {
+  line-height: 100px;
+  display: flex;
   justify-content: center;
 }
 
