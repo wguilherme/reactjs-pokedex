@@ -28,9 +28,8 @@ export class Pokedex extends Component {
     }
     return (
       <div className="Pokedex">
-        <h1 className="Pokedex-header">Welcome to React Pokedex!</h1>
-        <h2>Total experience: {this.props.exp}</h2>
         {title}
+        <h2>Total experience: {this.props.exp}</h2>
 
         <div className="Pokedex-cards">
           {this.props.pokemon.map((p) => (

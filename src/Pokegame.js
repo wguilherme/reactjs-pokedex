@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Pokedex from './Pokedex';
 
+import './Pokegame.css'
+
 export class Pokegame extends Component {
 
 
@@ -38,6 +40,7 @@ export class Pokegame extends Component {
 
     return (
       <div>
+        <h1 className="Pokegame-header">Welcome to Pokedex Battle!</h1>
         <Pokedex pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
         <Pokedex pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
       </div>
