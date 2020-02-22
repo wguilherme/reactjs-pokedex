@@ -6,12 +6,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .Pokedex-header {
-  line-height: 100px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
+}
+
+.Pokedex-winner{
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(0, 170, 0);
+}
+.Pokedex-loser{
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(201, 14, 14);
 }
 
 
